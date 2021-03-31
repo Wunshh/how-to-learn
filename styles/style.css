@@ -90,7 +90,7 @@
   right: 0;
 }
 
-.description__two-columns {
+.two-columns {
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -132,7 +132,7 @@
   margin: 0 auto 100px;
 }
 
-.digits__section-title {
+.section-title {
   max-width: 60%;
   margin: 0 auto 20px;
   text-align: center;
@@ -141,7 +141,7 @@
   font-weight: bold;
 }
 
-.digits__section-subtitle {
+.section-subtitle {
   max-width: 60%;
   margin: 0 auto;
   padding: 0;
@@ -151,7 +151,7 @@
   font-weight: normal;
 }
 
-.digits__table {
+.table {
   display: flex;
   margin: auto;
   width: 1100px;
@@ -233,7 +233,7 @@
   position: relative;
 }
 
-.section-title_theme_dark {
+.section-title__theme_dark {
   position: relative;
   max-width: 60%;
   margin: 90px auto 20px;
@@ -245,7 +245,7 @@
   z-index: 1;
 }
 
-.section-subtitle_theme_dark {
+.section-subtitle__theme_dark {
   position: relative;
   max-width: 60%;
   margin: 0 auto;
@@ -256,7 +256,7 @@
   color: white;
 }
 
-.table_theme_dark {
+.table__theme_dark {
   display: flex;
   margin: auto;
   margin-bottom: 90px;
@@ -292,7 +292,7 @@
   z-index: 1;
 }
 
-.kaufman__triangle-pic {
+.kaufman__triangle {
   background-image: url('../images/kaufman-triangle.svg');
   position: absolute;
   width: 877px;
@@ -315,6 +315,7 @@
   width: 90%;
   color: white;
   margin: 0 auto;
+  min-height: 250px;
 }
 
 .footer__column_content_copyright {
@@ -341,29 +342,41 @@
   font-size: 18px;
 }
 
-.footer__info_heading  {
+.footer__column-heading  {
   margin: 0 0 18px;
   font-weight: bold;
 }
 
-.footer__column_links {
+.footer__column-links {
   list-style: none;
   padding: 0;
   margin: 0 0 18px;
 }
 
-.footer__column_link {
+.footer__column-link {
   font-weight: normal;
-  color: #2f80ed;
 }
 
-.column__content_social_links {
+.footer__social-link {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   padding: 0;
   margin: 0 auto;
   text-decoration: none;
+  color: white;
 }
 
+.footer__contact-link {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 0;
+  margin: 0 auto;
+  text-decoration: none;
+  color: white;
+}
 
+.footer__social-icon {
+  margin-right: 10px;
+}
