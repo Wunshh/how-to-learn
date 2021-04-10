@@ -137,8 +137,19 @@
   font-weight: bold;
 }
 
+.techniques {
+  margin: 0 auto 100px;
+}
+
 .digits {
   margin: 0 auto 100px;
+  width: 80%;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 160px);
+  gap: 100px;
 }
 
 .section-title {
