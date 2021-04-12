@@ -4,3 +4,8 @@
   min-height: 350px;
   padding: 60px 0 40px;
 }
+
+.text-parameters-column {
+  line-height: 30px;
+  font-size: 18px;
+}

@@ -4,3 +4,9 @@
   min-height: 790px;
   margin: 0;
 }
+
+.text-parameters {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}

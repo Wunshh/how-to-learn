@@ -4,7 +4,3 @@
   position: relative;
   top: 60px;
 }
-
-.video__iframe:last-of-type {
-  margin-right: 0;
-}
