@@ -4,18 +4,3 @@
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
-.indent {
-  margin: 0;
-  padding: 0;
-}
-
-.link-style {
-  color: #2f80ed;
-  text-decoration: none;
-  transform: 2s ease-in;
-}
-
-.link-style:hover {
-  opacity: .5;
-}

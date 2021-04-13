@@ -1,5 +1,12 @@
 @import url(./vendor/normalize.css);
 @import url(./blocks/root/root.css);
+
+@import url(./blocks/rotation/rotation.css);
+
+@import url(./blocks/indent/indent.css);
+
+@import url(./blocks/link-style/link-style.css);
+
 @import url(./blocks/header/header.css);
 @import url(./blocks/logo/logo.css);
 @import url(./blocks/logo/_place/logo_place_header.css);
