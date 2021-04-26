@@ -13,4 +13,4 @@
 1. Методология написания кода - БЭМ;
 2. Файловая структура проекта Nested.
 
-*Сыылка на проект:*  https://wunshh.github.io/how-to-learn/
+*Сcылка на проект:*  https://wunshh.github.io/how-to-learn/
